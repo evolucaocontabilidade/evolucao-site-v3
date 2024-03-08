@@ -59,8 +59,11 @@ export function Footer() {
             <WhatsAppIcon />
           </a>
         </div>
-        <div>
+        <div className="flex flex-col gap-1">
           <h1 className="text-xl font-bold">© 2024- Evolução Contabilidade.</h1>
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-sm font-bold">CNPJ: 42.752.879/0001-78</h1>
+          </div>
         </div>
       </div>
     </div>
