@@ -1,7 +1,7 @@
+import Contato from "@/components/sections/Contato";
 import Experiencia from "@/components/sections/Experiencia";
 import Inicio from "@/components/sections/Inicio";
 import { Portfolio } from "@/components/sections/Portfolio";
-import Sobre from "@/components/sections/Sobre";
 import Tecnologias from "@/components/sections/Tecnologias";
 import PageWrapper from "@/components/utils/PageWrapper";
 
@@ -32,13 +32,13 @@ export default function Home() {
           className="min-h-[90vh] lg:min-h-[auto] pt-28  relative px-0 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full lg:mt-0"
         >
           <Portfolio />
-        </section>
+        </section> */}
         <section
-          id="sobre"
+          id="contato"
           className=" min-h-[auto] lg:min-h-[auto] pt-24 relative px-0 pb-5 flex flex-col justify-start h-[auto] lg:h-[auto] md:min-w-full md:min-h-full lg:mt-0 mt-20"
         >
-          <Portfolio />
-        </section> */}
+          <Contato />
+        </section>
       </PageWrapper>
     </div>
   );
