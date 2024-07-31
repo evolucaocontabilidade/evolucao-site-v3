@@ -27,12 +27,12 @@ export function Footer() {
       {/* <div className="w-[250px] justify-center items-center flex-col pt-2 hidden lg:flex">
           <a href="https://maps.app.goo.gl/e3NwKtdZE6ATn8219" target="_blank">
             <div>
-              <img
+              <img 
                 src="maps2.png"
                 alt=""
                 className="lg:w-[200px] w-[200px] mt-6 lg:mt-0 rounded-lg shadow-lg border border-gray-200"
               />
-            </div>
+            </div>dsad
           </a>
         </div> */}
       <div className="flex items-center justify-center flex-col gap-4 lg:w-2/5 ">
